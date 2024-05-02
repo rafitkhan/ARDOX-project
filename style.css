@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a{
+    text-decoration: none;
+}
+
+
+#login-page{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+}
+.row{
+padding-top: 34px;
+}
+.button {
+    display: flex;
+    justify-content: end;
+    gap: 43px;
+}
+.button a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button a:hover{
+    background: #fff;
+    color: #000;
+    width: 81px;
+    height: 38px;
+    border-radius: 18px;
+}
+
+.button a::after{
+    content: '';
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*===css form part start====*/
+.input-form{
+    display: flex;
+    justify-content: end;
+}
+.main-form{
+    width: 373px;
+}
+.form-head h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 58px;
+    margin-top: 31px;
+
+}
+.form-head h1 span{
+    display: block;
+}
+    
+.main-form input{
+    width: 372px;
+    padding: 18px 0px 17px 27px;
+    outline: none;
+    font-size: 22px;
+    font-weight: 300px;
+    border-radius: 10px;
+    color: #5E5E5E;
+}
+.info{
+    margin-top: 58px;
+    margin-bottom: 22px;
+}
+.main-form a{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+}
+.main-form button{
+    width: 100%;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 47px;
+    margin-bottom: 36px;
+} 
+.main-form p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.main-form p::before{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.main-form p::after{
+    content: '';
+    width: 101px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.other-options{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+.other-options a{
+width: 87px;
+height: 52px;
+background: #fff;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+}
+.other-options img{
+    width: 30px;
+    height: 30px;
+}
+.moreinfo{
+    width: 100%;
+    margin-top: 52px;
+}
+.moreinfo h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.moreinfo h4 span{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+ 
